@@ -1,7 +1,9 @@
-﻿namespace UtilitarioC.DataSet {
-    
-    
-    public partial class Utilidad {
+﻿namespace UtilitarioC.DataSet
+{
+
+
+    public partial class Utilidad
+    {
         partial class TitulosDataTable
         {
         }

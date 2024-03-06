@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.34302.79
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", ".", "{EB2BD549-4204-4E62-9B2B-667F8E358EBE}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFramework = "3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
 		ProjectReferences = "{157B3576-ADFA-4B61-89A3-22BECDAF2F2E}|LogicaC.dll;{6A9B0004-EEAE-4650-9D73-86774A8EE34E}|DataC.dll;{109A43AD-3824-46CB-9179-26C84270F6FC}|EncapsularC.dll;{382D8850-09A3-4BEB-B277-1C96D4925598}|UtilitarioC.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/WebSite"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\SuperMercadoOnline\WebSite\"
@@ -93,5 +95,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45178743-37B2-4098-ADC3-9DD5C453DCD7}
 	EndGlobalSection
 EndGlobal
